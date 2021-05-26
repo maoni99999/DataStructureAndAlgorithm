@@ -68,6 +68,8 @@ Status SqStack::UnStack(stacktype& data)
 int main1()
 {
 	SqStack mystack(3);
+	SqStack mystack(6);
+        
 	while (mystack.StackEmpty() != true_);
 	mystack.PushStack(1);
 	mystack.PushStack(2);
